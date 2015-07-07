@@ -169,6 +169,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.tell-me-more {
+    padding-bottom: 10px;
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #fff;
