@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #126eb7;
+    color: #416db5;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #126eb7;
+    color: #416db5;
 }
 
 a:hover,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #126eb7;
+    border-color: #416db5;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #126eb7;
+    background-color: #416db5;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #126eb7;
-    background-color: #126eb7;
+    border-color: #416db5;
+    background-color: #416db5;
 }
 
 .btn-primary .badge {
-    color: #126eb7;
+    color: #416db5;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #126eb7;
+    border-color: #416db5;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #126eb7;
+    background-color: #416db5;
 }
 
 .btn-xl:hover,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #126eb7;
-    background-color: #126eb7;
+    border-color: #416db5;
+    background-color: #416db5;
 }
 
 .btn-xl .badge {
-    color: #126eb7;
+    color: #416db5;
     background-color: #fff;
 }
 
@@ -182,7 +182,7 @@ fieldset[disabled] .btn-xl.active {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,cursive;
     font-weight: bold;
-    color: #126eb7;
+    color: #416db5;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -197,8 +197,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #126eb7;
-    background-color: #126eb7;
+    border-color: #416db5;
+    background-color: #416db5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -222,26 +222,31 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #126eb7;
+    color: #416db5;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #126eb7;
+    background-color: #416db5;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #126eb7;
+    background-color: #416db5;
+}
+
+.main-logo {
+    width: 128px;
+    padding-bottom: 20px;
 }
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: white;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -266,6 +271,11 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .main-logo {
+        width: 256px;
+        padding-bottom: 40px;
+    }
 }
 
 header {
@@ -289,41 +299,41 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 18px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 150px;
+        padding-top: 120px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 30px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 50px;
     }
 }
 
@@ -502,7 +512,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #126eb7;
+    background-color: #416db5;
 }
 
 .timeline>li .timeline-image h4 {
@@ -742,7 +752,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #126eb7;
+    background-color: #416db5;
     color: #fff;
 }
 
@@ -831,12 +841,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #126eb7;
+    background: #416db5;
 }
 
 ::selection {
     text-shadow: none;
-    background: #126eb7;
+    background: #416db5;
 }
 
 img::selection {
@@ -848,5 +858,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #126eb7;
+    webkit-tap-highlight-color: #416db5;
 }
