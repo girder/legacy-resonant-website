@@ -75,6 +75,16 @@ h6 {
     }
 }
 
+.portfolio-description {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.portfolio-components {
+    font-size: 16px;
+    line-height: 18px;
+}
+
 .img-centered {
     margin: 0 auto;
 }
