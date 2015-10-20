@@ -146,6 +146,10 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+.action-button {
+    margin-bottom: 5px;
+}
+
 .btn-xl {
     padding: 20px 40px;
     border-color: #416db5;
