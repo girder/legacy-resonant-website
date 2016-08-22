@@ -4,6 +4,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.footer-divider {
+    width: 90%;
+    height: 6px;
+    border-top: 3px solid #888;
+    border-bottom: 1px solid #777;
+    margin: 0 auto;
+}
+
+.related-tools {
+    padding-top: 10px;
+}
+
+.related-tools-img {
+    width: 100px;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
