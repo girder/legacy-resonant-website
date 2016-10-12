@@ -20,6 +20,10 @@
     width: 100px;
 }
 
+#vis {
+  margin-top: 20px;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -336,10 +340,10 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #333;
-    background-attachment: scroll;
+    /*background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: none;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -348,10 +352,11 @@ header {
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 header .intro-text .intro-lead-in {
+    margin-top: 40px;
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -360,7 +365,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
@@ -375,6 +380,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
+        margin-top: 40px;
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 30px;
@@ -383,7 +389,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 15px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 50px;
@@ -499,6 +505,10 @@ section h3.section-subheading {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+.resonant-component {
+    margin-top: 40px;
 }
 
 .timeline {
@@ -723,10 +733,6 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
-}
-
-section#analytics {
-    background-color: #fff;
 }
 
 section#about {
