@@ -76,6 +76,11 @@ h6 {
     font-weight: 700;
 }
 
+.architecture-diagram {
+  width: 500px;
+  margin-top: 20px;
+}
+
 .architecture-description {
   padding-top: 70px;
 }
@@ -83,6 +88,10 @@ h6 {
 .resonant-lab-mark {
   height: 100px;
   margin-bottom: 40px;
+}
+
+.resonant-lab-description {
+  padding-bottom: 40px;
 }
 
 .navbar-brand > img.resonant-mark {
