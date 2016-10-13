@@ -50,8 +50,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <!-- <img src="img/Resonant_Mark_32.png"> -->
-                    Resonant
+                    <img src="img/Resonant_Mark_Text.png" class="resonant-mark">
                 </a>
             </div>
 
@@ -98,7 +97,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                     </a>
-                    <h4 class="service-heading">Data Management</h4>
+                    <h3 class="service-heading">Data Management</h3>
                     <p class="text-muted">Upload, share, and manage your data from SQL, NoSQL, Hadoop, Amazon S3, and more.</p>
                 </div>
                 <div class="col-md-4">
@@ -106,7 +105,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
                     </a>
-                    <h4 class="service-heading">Analytics</h4>
+                    <h3 class="service-heading">Analytics</h3>
                     <p class="text-muted">Perform heavy-lifting on your data with Python, R, Spark, and Docker containers through a uniform interface.</p>
                 </div>
                 <div class="col-md-4">
@@ -114,8 +113,21 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
                     </a>
-                    <h4 class="service-heading">Visualization</h4>
+                    <h3 class="service-heading">Visualization</h3>
                     <p class="text-muted">Gain insight with flexible, scalable web visualizations.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <img src="img/architecture.png">
+                </div>
+                <div class="col-md-4 architecture-description">
+                    <p class="text-muted text-left">
+                        The Resonant framework tools work in concert
+                        to provide storage, analysis, and visualization solutions
+                        for your data. All Resonant components
+                        are fully open-source under the Apache v2 licence.
+                    </p>
                 </div>
             </div>
         </div>
@@ -127,17 +139,18 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Resonant Lab</h2>
                 </div>
-                <div class="col-md-6">
-                    <h3 class="section-subheading text-muted">
+                <div class="col-md-6 text-muted">
+                    <div class="text-center">
+                        <img src="img/Resonant_Lab_Mark.png" class="resonant-lab-mark" alt="">
+                    </div>
+                    <p>
                         Resonant Lab lets you build and share advanced
                         visualizations without needing to write code. Upload
                         your own dataset, connect data fields to visual
                         properties, and export or share the resulting interative
                         visualizations through an easy to use free application
                         powered by the Resonant data and analytics platform.
-                        Resonant and all of its components, including Resonant Lab,
-                        are fully open-source under the Apache v2 licence.
-                    </h3>
+                    </p>
                     <div class="text-center">
                         <a href="https://resonantlab.kitware.com" class="btn btn-lg btn-primary action-button">Try it!</a>
                     </div>
@@ -331,7 +344,7 @@ vis.render();
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <h4>Girder</h4>
+                    <h3>Girder</h3>
                     <p class="text-muted">
                         Our versatile data management platform, Girder, is a great place to start. Follow the
                         <a href="http://girder.readthedocs.org/en/latest/installation.html">installation instructions</a>
@@ -364,7 +377,7 @@ vis.render();
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <h4>Girder Worker</h4>
+                    <h3>Girder Worker</h3>
                     <p class="text-muted">
                         Girder integrates with Girder Worker, a flexible execution engine for running analyses.
                         To see it in action, <a href="http://girder-worker.readthedocs.org/en/latest/installation.html">install Girder Worker</a>
@@ -398,7 +411,7 @@ vis.render();
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <h4>GeoJS</h4>
+                    <h3>GeoJS</h3>
                     <p class="text-muted">
                         For geoinformatics applications, you may want to start by learning about
                         GeoJS, a scalable geospatial visualization library for the web. To get you started, GeoJS provides
@@ -422,7 +435,7 @@ vis.render();
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <h4>Candela</h4>
+                    <h3>Candela</h3>
                     <p class="text-muted">Reusable visualization components for the web.</p>
                     <ul class="list-inline social-buttons">
                         <li><a href="https://candela.readthedocs.io" class="text-center"><i class="fa fa-home"></i></a>
@@ -451,7 +464,7 @@ vis.render();
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <h4>Clique</h4>
+                    <h3>Clique</h3>
                     <p class="text-muted">Intuitive large graph visualization and curation.</p>
                     <ul class="list-inline social-buttons">
                         <li><a href="https://github.com/XDATA-Year-3/clique#readme" class="text-center"><i class="fa fa-home"></i></a>
@@ -470,7 +483,7 @@ vis.render();
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <h4>Tangelo</h4>
+                    <h3>Tangelo</h3>
                     <p class="text-muted">
                         If you are looking for a dead-simple web framework to host analyses or visualizations,
                         consider Tangelo, a minimal, powerful, Pythonic web server for analysis.
@@ -495,10 +508,10 @@ vis.render();
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Consulting</h2>
-                    <h3 class="section-subheading text-muted">
+                    <p class="text-muted">
                         Resonant is brought to you by <a href="http://www.kitware.com">Kitware</a>, a proven leader in advanced open-source solutions.
                         Kitware provides custom services supporting Resonant. Find out how we can work with you to create tailored web applications that resonate with your data.
-                    </h3>
+                    </p>
                     <a href="http://www.kitware.com/products/consulting.html" class="btn btn-lg btn-primary action-button">Custom Solutions</a>
                     <a href="http://www.kitware.com/company/contact_kitware.php" class="btn btn-lg btn-primary action-button">Contact Us</a>
                 </div>

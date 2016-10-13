@@ -26,7 +26,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -34,12 +34,12 @@ body {
 }
 
 .text-primary {
-    color: #416db5;
+    color: #1b70b5;
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.25;
+    font-size: 18px;
+    /*line-height: 1.25;*/
 }
 
 p.large {
@@ -55,7 +55,7 @@ a.active {
 }
 
 a {
-    color: #416db5;
+    color: #1b70b5;
 }
 
 a:hover,
@@ -71,9 +71,23 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*text-transform: uppercase;*/
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.architecture-description {
+  padding-top: 70px;
+}
+
+.resonant-lab-mark {
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.navbar-brand > img.resonant-mark {
+  height: 40px;
+  margin-top: -10px;
 }
 
 .navbar-default .nav li a {
@@ -118,12 +132,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #416db5;
+    border-color: #1b70b5;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #416db5;
+    background-color: #1b70b5;
 }
 
 .btn-primary:hover,
@@ -157,12 +171,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #416db5;
-    background-color: #416db5;
+    border-color: #1b70b5;
+    background-color: #1b70b5;
 }
 
 .btn-primary .badge {
-    color: #416db5;
+    color: #1b70b5;
     background-color: #fff;
 }
 
@@ -172,14 +186,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #416db5;
+    border-color: #1b70b5;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #416db5;
+    background-color: #1b70b5;
 }
 
 .btn-xl:hover,
@@ -213,12 +227,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #416db5;
-    background-color: #416db5;
+    border-color: #1b70b5;
+    background-color: #1b70b5;
 }
 
 .btn-xl .badge {
-    color: #416db5;
+    color: #1b70b5;
     background-color: #fff;
 }
 
@@ -238,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,cursive;
     font-weight: bold;
-    color: #416db5;
+    color: #1b70b5;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -253,8 +267,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #416db5;
-    background-color: #416db5;
+    border-color: #1b70b5;
+    background-color: #1b70b5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -278,19 +292,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #416db5;
+    color: #1b70b5;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #416db5;
+    background-color: #1b70b5;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #416db5;
+    background-color: #1b70b5;
 }
 
 .main-logo {
@@ -482,6 +496,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
+    height: 120px;
     background-color: #333;
 }
 
@@ -577,7 +592,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #416db5;
+    background-color: #1b70b5;
 }
 
 .timeline>li .timeline-image h4 {
@@ -813,7 +828,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #416db5;
+    background-color: #1b70b5;
     color: #fff;
 }
 
@@ -901,12 +916,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #416db5;
+    background: #1b70b5;
 }
 
 ::selection {
     text-shadow: none;
-    background: #416db5;
+    background: #1b70b5;
 }
 
 img::selection {
@@ -918,5 +933,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #416db5;
+    webkit-tap-highlight-color: #1b70b5;
 }
