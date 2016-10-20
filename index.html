@@ -32,7 +32,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="https://unpkg.com/candela/dist/candela.min.js"></script>
 
 </head>
 
@@ -156,24 +155,10 @@
                     </div>
                 </div>
                 <div id="vis" class="col-md-6 text-center">
+                    <a href="https://resonantlab.kitware.com">
+                        <img src="img/kitware-candela.png" class="resonant-lab-img" alt="">
+                    </a>
                 </div>
-                <script>
-var el = document.getElementById('vis');
-var data = [];
-for (var d = 0; d < 1000; d += 1) {
-  data.push({
-    a: Math.sqrt(-2*Math.log(Math.random()))*Math.cos(2*Math.PI*Math.random())
-  });
-}
-
-var vis = new candela.components.Histogram(el, {
-  data: data,
-  bin: 'a',
-  width: 700,
-  height: 400
-});
-vis.render();
-                </script>
             </div>
         </div>
     </section>
