@@ -18,6 +18,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -60,16 +61,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#intro">Data &amp; Analytics</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#portfolio">Success Stories</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#data">Data Management</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#analytics">Analytics</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#visualization">Visualization</a>
+                        <a class="page-scroll" href="#resonant">Resonant</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#consulting">Consulting</a>
@@ -119,89 +117,286 @@
         </div>
     </header>
 
-    <section id="resonant">
+    <section id="diagram">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What is Resonant?</h2>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
                     <img src="img/ResonantPlatform.svg">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <p class="text-justify">
-                        <em>Resonant</em> is Kitware's web-based software platform for
-                        constructing powerful applications that coordinate data,
-                        analytics, and visualization to help you unlock the
-                        insights in your data.
-                    </p>
+        </div>
+    </section>
 
-                    <p class="text-justify">
-                        Resonant provides three major capabilities that you can
-                        take advantage of in your applications: <em>data
-                        management</em> to store and access your data; <em>data
-                        analytics</em> to clean, process, and compute with your
-                        data; and <em>visualization</em> to display your data in
-                        beautiful and insightful images.
-                    </p>
-                </div>
-                <div class="col-md-8 col-md-offset-2">
-                    <p class="text-justify">
-                        The Resonant framework tools work in concert
-                        to provide storage, analysis, and visualization solutions
-                        for your data. All Resonant components
-                        are fully open-source under the Apache v2 license.
-                    </p>
-                </div>
+    <section id="intro">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Data and Analytics at Kitware with <i>Resonant</i></h2>
             </div>
+            <div class="col-md-12">
+                <p>From medical and scientific visualizations to the growing market
+                of personal health apps, smarthome products, and the Internet of
+                Things, there is a lot of insight locked in the ever-growing
+                number of datasets available. Through the tools in Resonant,
+                Kitware’s data and analytics platform, we are here to provide
+                the intensive data analytics processing and workflows that can
+                crack that data open and reveal the insights within. These
+                include tools for managing dynamic, big data storage, scalable
+                scientific workflows, and custom visualizations. Resonant’s
+                tools allow for a wide range of analyses, from running
+                bioinformatics computations in R and Python, to large scale
+                geospatial image processing, and beyond. Resonant also carries
+                with it Kitware’s years of experience and expertise in
+                visualization, high-performance computing, software process,
+                scientific and medical computing, and leadership in open-source
+                software communities.</p>
+
+                <p>Some fields that we have explored with Resonant include:</p>
+
+                <ul>
+                    <li>Medical image processing and hosting automated grand
+                        challenges
+                    <li>Software quality and algorithm evaluation
+                    <li>HPC simulation and visualization in chemistry and
+                        engineering
+                    <li>Histopathology annotation and automated processing
+                    <li>Geospatial visualization of fused data from social
+                        media, weather, and municipal sources
+                </ul>
+
+                <p>From exploring the patterns of New York City life in millions
+                of daily taxi trips criss-crossing Manhattan, to making sense of
+                the progression of a worldwide Ebola outbreak, Resonant provides
+                powerful analytics to process complex, large datasets into
+                beautiful, insightful, and interactive visualizations in many
+                application areas. These open source tools and applications are
+                flexible, adaptable, and extensible to new situations. You have
+                the full power to design, construct, and deploy Resonant
+                applications to explore your data, either yourself or with our
+                help.</p>
+
+                <p>As you know from Kitware’s experience with VTK and ParaView,
+                we are skilled at developing powerful platforms for
+                well-designed software tools and applications, backed by a
+                community of passionate users. We have brought this experience
+                to the world of Data and Analytics with our Resonant
+                platform.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Success Stories</h2>
+            </div>
+            <div class="col-md-12">
+                <p>Here are just some examples of how we used Resonant to
+                construct data-intensive web applications across many different
+                application areas.</p>
+            </div>
+
             <div class="row">
-                <div class="col-md-4">
-                    <h3 class="service-heading text-center">Girder</h3>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
-                    </p>
+                <div class="col-md-2 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/hospital.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Hospital Costs</h4>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h3 class="service-heading text-center">Girder Worker</h3>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="service-heading text-center">Candela / GeoJS</h3>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
-                    </p>
+
+                <div class="col-md-8">
+                    <p> In 201x, the federal government released a trove of
+                    hospital data - quoted prices for pneumonia and heart
+                    failure procedures, the associated reimbursement from
+                    insurance, and the outcome for the patient in each case. We
+                    built a quick-and-dirty web application to explore this data
+                    interactively, yielding some interesting patterns worth
+                    further study. In particular, check out the rigorous
+                    relationship between cost and reimbursement in the great
+                    state of Maryland.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="resonant">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Resonant: A Platform for Data-Intensive Web Applications</h2>
+            </div>
+            <div class="col-md-12">
+                <p>
+                Resonant is an extensible, open-source collection of tools,
+                libraries, and patterns that you can use to construct scalable
+                web applications around complex data. The core capabilities of
+                Resonant are Data Management, Analytics, and Visualization.
+                </p>
+
+                <h3>Data Management</h3>
+
+                <p>
+                Data from the real world is complex, irregular,
+                and gritty - before you can extract insight from it you need to
+                be able to store it, clean it, and query it. Girder is
+                Resonant’s data management platform that stores your data
+                securely, lets your browse and share it using the web, and
+                empowers you to build your own web applications around your data
+                using an expressive RESTful API and client libraries.
+                </p>
+
+                <p> At Kitware, we use an instance of Girder to host a publicly
+                accessible data store at <a target=_blank href=https://data.kitware.com>https://data.kitware.com</a>.
+                You can head over there right now to try it out.  </p>
+
+                <p>
+                <p class=missing>[show screenshot of Girder client]</p>
+                </p>
+
+                <p> We have also developed several Girder-based web applications
+                to serve our customers’ data ingestion and storage needs. These
+                applications often form a full customer solution, offering a
+                user interface to the customer’s data and a jumping-off point
+                for performing various analytics and visualizations related to
+                their specific problem. For the <a target=_blank href=https://challenge.kitware.com/>COVALIC project</a>,
+                we created a Girder-backed application for hosting grand
+                challenges - users can log in, download sample data, and upload
+                their solutions to the challenge problems, which are then
+                evaluated using Resonant analytics. Girder works in the
+                background to organize and store all the data, and coordinate
+                the analytics, while the web application presents a crisp, clean
+                experience to visitors.  </p>
+
+                <p> <p class=missing>[COVALIC screencap]</p> </p>
+
+                <p> Another example is the <a target=_blank href=https://isic-archive.com/>ISIC (International Skin Imaging
+                Collaboration)</a> Archive, a project that aims to collect images of
+                skin lesions in one place so that research dermatologists can
+                use image annotation and other techniques to advance the fight
+                against skin cancer.  </p>
+
+                <p> <p class=missing>[ISIC Archive screencap - preferably one that is not
+                    disgusting]</p> </p>
+
+                <p> In other cases, the application is simply an extension to
+                the standard Girder user interface -  the Monkeybrains plugin is
+                one such example, introducing a chart and explanation to a
+                stored dataset: </p>
+
+                <p> <p class=missing>[show screencap of monkeybrains plugin]</p> </p>
+
+                <p> You can think of Girder as not just a data management tool,
+                but a whole platform for creating web applications powered by
+                your data.  </p>
+
+                <p> For more information about Girder, check out the
+                <a target=_blank href=https://girder.readthedocs.io/>Girder documentation</a>,
+                visit the
+                <a target=_blank href=https://github.com/girder/girder>Girder GitHub repository</a>,
+                read our <a target=_blank href=https://blog.kitware.com/the-resonant-platform/>blog post</a>
+                about Girder or <a target=_blank href=https://www.kitware.com/contact-us/>contact us directly</a>.
+                </p>
+
+                <h3>Analytics</h3>
+
+                <p> <a target=_blank href=https://github.com/girder/girder_worker>Girder Worker</a>
+                is a scalable server-side task execution engine that can run
+                analyses in a variety of languages and formats. It integrates
+                with Girder so you can run your analyses while viewing your data
+                and watching the output as it is computed. If you have analyses
+                written in Python or R, Girder-Worker can run them directly.
+                Girder-Worker also supports Docker - if you package your
+                analysis as a Docker container, Girder-Worker automatically
+                takes care of passing data and parameters to your analysis,
+                running it, and bringing the output back. Girder can even supply
+                an auto-generated web UI for your Docker container, so if you
+                create a command line analysis, Girder will build up an entire
+                web application around that, complete with a generated UI, job
+                scheduling, and log and output handling to ease debugging and
+                tracking.  </p>
+
+                <p> We have used Girder-Worker in a number of projects, for
+                example, in the HistomicsTK project to run complex medical image
+                processing algorithms such as nuclei detection on histopathology
+                data.  </p>
+
+                <p> <p class=missing>[screencap of HistomicsTK]</p> </p>
+
+                <p> Girder-Worker is also used in the Covalic project to host
+                automated medical imaging grand challenges. Participants in a
+                challenge submit image data to Girder representing a
+                segmentation or a registration of an image.  Then a scoring
+                metric executable, built from C++ and packaged into a Docker
+                container, runs in Girder-Worker, comparing that submission data
+                from Girder to a known ground truth (also stored in Girder), and
+                producing quantitative metrics that are then uploaded back to
+                Girder, so they can be ranked and displayed in a participant
+                dashboard.  </p>
+
+                <p> <p class=missing>[screencap of COVALIC, alongside a simple diagram showing
+                    the dataflow]</p> </p>
+
+                <p> Girder Worker provides the means of asking questions of your
+                data in any language you choose. When the answers come back, you
+                can begin to unlock those insights hidden in the data.  </p>
+
+                <p> For more information about Girder-Worker, check out the
+                <a target=_blank href=https://girder-worker.readthedocs.io/>Girder-Worker documentation</a>,
+                visit the
+                <a target=_blank href=https://github.com/girder/girder_worker>Girder-Worker GitHub repository</a>,
+                read our
+                <a target=_blank href=https://blog.kitware.com/girder-worker-and-the-covalic-grand-challenge/>blog post</a>
+                about Girder-Worker, or <a target=_blank href=https://www.kitware.com/contact-us/>contact us directly</a>.</p>
+
+                <h3>Visualization</h3>
+
+                <p>Visualization is the best way to see the story analytics has
+                revealed about your data. Candela is Resonant’s visualization
+                component framework. It is optimized for the web, and comes with
+                a powerful array of both traditional chart types, such as bar
+                charts and scatter plots, and cutting edge research
+                visualizations, such as
+                <a target=_blank href=https://vcg.seas.harvard.edu/publications/lineup-visual-analysis-multi-attribute-rankings>LineUp</a>
+                and <a target=_blank href=https://vcg.seas.harvard.edu/publications/upset-visualization-intersecting-sets>UpSet</a>
+                from our collaboration with Harvard University.  Candela’s powerful
+                API provides a foundation for building tailored visualizations, such
+                as TrackerDash, the algorithm evaluation dashboard we have developed
+                for Google’s Tango.
+                </p>
+
+                <p> <p class=missing>[screencaps of basic and advanced vis types]</p> </p>
+
+                <p> Candela is also a component framework - you can use it to
+                create new visualizations, or drop existing visualizations into
+                your Resonant applications. Candela’s component model is
+                flexible enough to work with existing visualization software,
+                view frameworks, and events systems. With the rapid advance and
+                change in web technologies, Candela adapts.  </p>
+
+                <p> You can explore our built-in array of Candela components
+                with <a target=_blank href=https://resonantlab.kitware.com/>Resonant Lab</a>,
+                a Girder application specifically designed to
+                let you easily connect your own datasets to Candela.
+                </p>
+
+                <p> <p class=missing>[screencap of Resonant Lab]</p> </p>
+
+                <p> To learn more about Candela, check out the
+                <a target=_blank href=http://candela.readthedocs.io/>documentation</a>,
+                visit the <a target=_blank href=https://github.com/Kitware/candela>GitHub repository</a>,
+                read our <a target=_blank href=https://blog.kitware.com/resonant-visualization-with-candela/>blog post</a>
+                about Candela, or <a target=_blank href=https://www.kitware.com/contact-us/>contact us directly</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--
     <section id="resonant-lab">
         <div class="container">
             <div class="row">
@@ -232,7 +427,9 @@
             </div>
         </div>
     </section>
+    -->
 
+    <!--
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -384,7 +581,9 @@
             </div>
         </div>
     </section>
+    -->
 
+    <!--
     <section id="data">
         <div class="container">
             <div class="row">
@@ -557,6 +756,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <section id="consulting">
         <div class="container">
