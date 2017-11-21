@@ -1,0 +1,296 @@
+<script type="text/javascript" src="js/logo-zoom.js"></script>
+<link rel="stylesheet" href="css/logo-zoom.css">
+<div class="page welcome">
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <img class="logo" src="images/Resonant_Mark_Text.png" />
+                    </div>
+                </div>
+                <div class="intro-lead-in">The data and analytics platform</div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a href="#data" class="page-scroll fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                    </a>
+                    <h3 class="service-heading">Data Management</h3>
+                    <p class="text-muted">Upload, share, and manage your data from SQL, NoSQL, Hadoop, Amazon S3, and more.</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#analytics" class="page-scroll fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
+                    </a>
+                    <h3 class="service-heading">Analytics</h3>
+                    <p class="text-muted">Perform heavy-lifting on your data with Python, R, Spark, and Docker containers through a uniform interface.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#visualization" class="page-scroll fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+                    </a>
+                    <h3 class="service-heading">Visualization</h3>
+                    <p class="text-muted">Gain insight with flexible, scalable web visualizations.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="diagram">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <img src="images/ResonantPlatform.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Success Stories</h2>
+                </div>
+            </div>
+            <div class="row">
+                <% for (let stories of site.data.stories.slice(0,8)) { %>
+                    <%- partial('partial/portfolio', stories) %>
+                        <% } %>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="stories"><button type="button" class="btn btn-primary all-stories">All stories</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="data">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Data Management</h2>
+                </div>
+            </div>
+            <div class="row resonant-component">
+                <div class="col-md-3">
+                    <a href="girder">
+                        <img src="images/team/girder.png" class="img-responsive img-circle" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h3><a href="girder">Girder</a></h3>
+                    <p class="text-muted">
+                        Our versatile data management platform, Girder, is a great place to start. Follow the
+                        <a href="http://girder.readthedocs.org/en/latest/installation.html">installation instructions</a>
+                        to get a full data management platform running locally.
+                    </p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="http://girder.readthedocs.org/" class="text-center">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://girder.readthedocs.org/en/latest/user-guide.html" class="text-center">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/girder/girder" class="text-center">
+                                <i class="fa fa-git"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="analytics" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Analytics</h2>
+                </div>
+            </div>
+            <div class="row resonant-component">
+                <div class="col-sm-3">
+                    <a href="girder-worker">
+                        <img src="images/team/girder-worker.png" class="img-responsive img-circle" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h3><a href="girder-worker">Girder Worker</a></h3>
+                    <p class="text-muted">
+                        Girder integrates with Girder Worker, a flexible execution engine for running analyses. To see it in action,
+                        <a href="http://girder-worker.readthedocs.org/en/latest/installation.html">install Girder Worker</a>
+                        and follow our tutorials on
+                        <a href="http://girder-worker.readthedocs.org/en/latest/image-example.html">image analysis</a> and
+                        <a href="http://girder-worker.readthedocs.org/en/latest/facebook-example.html">graph analysis</a>. To run Girder Worker jobs through Girder, see how to enable the
+                        <a href="http://girder-worker.readthedocs.org/en/latest/installation.html#installing-the-girder-plugin">Girder Worker plugin</a>.
+                    </p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="http://girder-worker.readthedocs.org/" class="text-center">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://girder-worker.readthedocs.org/en/latest/api-docs.html" class="text-center">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/girder/girder_worker" class="text-center">
+                                <i class="fa fa-git"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="visualization">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Visualization</h2>
+                </div>
+            </div>
+            <div class="row resonant-component">
+                <div class="col-sm-3">
+                    <a href="http://geojs.readthedocs.org/">
+                        <img src="images/team/geojs.png" class="img-responsive img-circle" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h3>GeoJS</h3>
+                    <p class="text-muted">
+                        For geoinformatics applications, you may want to start by learning about GeoJS, a scalable geospatial visualization library
+                        for the web. To get you started, GeoJS provides
+                        <a href="http://opengeoscience.github.io/geojs/examples/index.html">several examples</a>
+                        with associated source code.
+                    </p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="http://geojs.readthedocs.org/" class="text-center">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://opengeoscience.github.io/geojs/examples/index.html" class="text-center">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/OpenGeoscience/geojs" class="text-center">
+                                <i class="fa fa-git"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row resonant-component">
+                <div class="col-sm-3">
+                    <a href="https://candela.readthedocs.io">
+                        <img src="images/team/candela.png" height="225" width="225" class="img-responsive img-circle" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h3>Candela</h3>
+                    <p class="text-muted">Reusable visualization components for the web.</p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://candela.readthedocs.io" class="text-center">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://candela.readthedocs.io#getting-started" class="text-center">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Kitware/candela" class="text-center">
+                                <i class="fa fa-git"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="related-tools" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Related Tools</h2>
+                </div>
+            </div>
+            <div class="row resonant-component">
+                <div class="col-sm-3">
+                    <a href="https://github.com/XDATA-Year-3/clique#readme">
+                        <img src="images/team/clique.png" class="img-responsive img-circle" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h3>Clique</h3>
+                    <p class="text-muted">Intuitive large graph visualization and curation.</p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="https://github.com/XDATA-Year-3/clique#readme" class="text-center">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/XDATA-Year-3/clique#clique-api" class="text-center">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/XDATA-Year-3/clique" class="text-center">
+                                <i class="fa fa-git"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row resonant-component">
+                <div class="col-sm-3">
+                    <a href="http://tangelo.readthedocs.org/">
+                        <img src="images/team/tangelo.png" class="img-responsive img-circle" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h3>Tangelo</h3>
+                    <p class="text-muted">
+                        If you are looking for a dead-simple web framework to host analyses or visualizations, consider Tangelo, a minimal, powerful,
+                        Pythonic web server for analysis. Go through the
+                        <a href="http://tangelo.readthedocs.org/en/v0.9/tutorials/building-an-app.html">basic</a> and
+                        <a href="http://tangelo.readthedocs.org/en/v0.9/tutorials/db-vis.html">advanced</a> tutorials to get started.
+                    </p>
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="http://tangelo.readthedocs.org/" class="text-center">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://tangelo.readthedocs.org/en/latest/tutorials/building-an-app.html" class="text-center">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Kitware/tangelo" class="text-center">
+                                <i class="fa fa-git"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

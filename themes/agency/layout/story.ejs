@@ -1,0 +1,33 @@
+navbar_affixed: true
+---
+<div class="page story">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <!-- Project Details Go Here -->
+                <h2>
+                    <%= page.displayName %>
+                </h2>
+                <p class="item-intro text-muted">
+                    <%= page.subtitle %>
+                </p>
+                <a target="_blank" <% if(page.link){ %>href="
+                    <%- page.link %>"
+                        <% } %>>
+                            <img class="img-responsive img-centered" src="<%- url_for(`images/portfolio/${page.name}-preview.png`) %>">
+                </a>
+                <div class="portfolio-description">
+                    <%- page.description %>
+                </div>
+                <% if(page.link){ %>
+                <p>For more information, visit <a href="<%- page.link %>">here</a></p>
+                <% } %>
+                <p class="portfolio-components">Resonant components:
+                    <%- page.components.map(function(component){ 
+                        return '<a href="'+url_for(component.toLowerCase())+'">'+site.data.components[component]+'</a>'    
+                    }).join(', ') %>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

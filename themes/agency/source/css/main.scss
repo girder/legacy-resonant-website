@@ -1,0 +1,85 @@
+// overwrites
+.jumbotron {
+    background-color: inherit;
+}
+
+.navbar-custom .nav li a {
+    text-transform: none;
+}
+
+// @media (min-width: 768px) {
+//     .navbar-nav>li>a {
+//         padding: 12px 10px;
+//     }
+// }
+p {
+    font-size: 16px;
+}
+
+// default layout
+.navbar-brand img {
+    height: 2em;
+    position: relative;
+    top: -0.5em;
+}
+
+.navbar-brand:hover img {
+    opacity: .8;
+}
+
+.content-wrapper {
+    padding-top: 100px;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding-top: 50px;
+    }
+}
+
+footer {
+    padding: 14px 0;
+    border-top: 1px solid #eee;
+
+    &.narrow {
+        padding: 4px 0;
+    }
+}
+
+// welcome page
+.page.welcome {
+    header .logo {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .description {
+        text-align: left;
+    }
+
+    button.all-stories {
+        padding: 15px 45px;
+        border-radius: 3px;
+        text-transform: none; 
+    }
+
+    section.get-started {
+        .fa {
+            width: 1.4em;
+        }
+    }
+
+    .resonant-component {
+        margin-top: 40px;
+    }
+}
+
+// tutorials page
+.page.story {
+    div.portfolio-description {
+        margin-top: 15px;
+        line-height: 23px;
+    }
+}

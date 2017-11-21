@@ -1,0 +1,190 @@
+- name: hurricanes
+  displayName: Hurricane Tracking
+  subtitle: Geoinformatics
+  description: <p>
+      As part of the Department of Energy-funded project <a href="http://opengeoscience.github.io/geojs/examples/hurricanes/">ClimatePipes</a>,
+      we created an interactive map
+      to help scientists studying geoinformatics track historic hurricane paths. The map uses GeoJS’
+      geospatial visualization capabilities to display hurricanes in different colors based on category.
+      You can explore the hurricanes by date, wind speed, and surface pressure, using pan-and-zoom
+      capabilities to focus on specific regions of the map.
+    </p>
+    <p>
+      As part of our commitment to open source, we provide source code for creating features such as
+      a map object and a legend. Source code is also available for drawing the map and loading the
+      data.
+    </p>
+  link: http://opengeoscience.github.io/geojs/examples/hurricanes/
+  components: 
+    - geojs
+
+- name: taxi
+  displayName: NYC Taxi
+  subtitle: Scalable geoinformatics
+  description: <p>Using data from 114 million taxi and bike trips, we created a
+    live application that allows you to search taxi and bike trip data in New York City, Washington D.C., and Boston and analyze population
+    movements. You can filter results by pick-up date, trip distance, and number of
+    passengers; display results for pick-up and drop-off locations using various tile sets including
+    MapQuest Satellite and OpenStreetMap; pan and zoom; and animate results. In the link below, watch
+    how the <a href="https://en.wikipedia.org/wiki/February_11%E2%80%9317,_2014_North_American_winter_storm">February 2014 winter storm</a>
+    affected Washington D.C. bicycle travel and the number of
+    days it took before the city returned to its natural rhythm.</p>
+    <p>For more information, visit <a href="http://demo.kitware.com/minerva/#mapview?taxi-filter=ga-source%3Dtaxijuly%26ga-data-trips%3D250000&general-display=ga-tile-set%3Dstamenterrain%26ga-tile-opacity%3D0.5&taxi-display=ga-show-taxi-data%3Dtrue%26ga-display-type%3Dboth%26ga-display-process%3Dbinned%26ga-display-max-points%3D25000%26ga-display-max-lines%3D10000%26ga-display-num-bins%3D30%26ga-data-opacity%3D0.136&graph=series0%3Dinternal.fullrange%26type0%3Dline%26bin0%3Dday%26series1%3Dtaximodeldc.total%26type1%3Dline%26bin1%3Dday%26series2%3Dweatherdc.precipitation%26type2%3Dline%26bin2%3Dday&animation-anim=ga-cycle%3Dnone%26ga-cycle-group%3D3-hour%26ga-cycle-duration%3D30-s%26ga-cycle-framerate%3D10%26ga-play%3Dplay&anim=ga-cycle%3Dnone%26ga-cycle-group%3D3-hour%26ga-cycle-duration%3D30-s%26ga-cycle-framerate%3D10%26ga-play%3Dstop&general-filter=ga-region%3D%26ga-date-range%3D2014%2BFeb%2B11%2B-%2B2014%2BFeb%2B22&map=x0%3D-77.1599426%26y0%3D38.9666906%26x1%3D-76.8955078%26y1%3D38.8438643%26zoom%3D13.73&panels=ga-anim-settings%3Dtrue%26ga-taxi-settings%3Dtrue%26ga-general-settings%3Dfalse">Minerva Taxi 2014 Winter Storm View</a>.
+                                To see the animation, wait for the data to load, then click Play in the Animation panel.</p>
+  link: http://demo.kitware.com/minerva/#mapview?taxi-filter=ga-source%3Dtaxijuly%26ga-data-trips%3D250000&general-display=ga-tile-set%3Dstamenterrain%26ga-tile-opacity%3D0.5&taxi-display=ga-show-taxi-data%3Dtrue%26ga-display-type%3Dboth%26ga-display-process%3Dbinned%26ga-display-max-points%3D25000%26ga-display-max-lines%3D10000%26ga-display-num-bins%3D30%26ga-data-opacity%3D0.136&graph=series0%3Dinternal.fullrange%26type0%3Dline%26bin0%3Dday%26series1%3Dtaximodeldc.total%26type1%3Dline%26bin1%3Dday%26series2%3Dweatherdc.precipitation%26type2%3Dline%26bin2%3Dday&animation-anim=ga-cycle%3Dnone%26ga-cycle-group%3D3-hour%26ga-cycle-duration%3D30-s%26ga-cycle-framerate%3D10%26ga-play%3Dplay&anim=ga-cycle%3Dnone%26ga-cycle-group%3D3-hour%26ga-cycle-duration%3D30-s%26ga-cycle-framerate%3D10%26ga-play%3Dstop&general-filter=ga-region%3D%26ga-date-range%3D2014%2BFeb%2B11%2B-%2B2014%2BFeb%2B22&map=x0%3D-77.1599426%26y0%3D38.9666906%26x1%3D-76.8955078%26y1%3D38.8438643%26zoom%3D13.73&panels=ga-anim-settings%3Dtrue%26ga-taxi-settings%3Dtrue%26ga-general-settings%3Dfalse
+  components: 
+    - girder
+    - geojs
+
+- name: ebola
+  displayName: Ebola Outbreak
+  subtitle: Storytelling with data
+  description: <p>In order to increase awareness of the 2014 Ebola outbreak in western Africa, we developed an interactive visualization timeline. The timeline aggregates news, case count information, and a
+    generational disease outbreak model. It is broken down into two infographics. The first
+    represents news articles related to the outbreak, where each node on the timeline is linked to a
+    corresponding news report. The second depicts outbreak cases over the same date range.
+    Controls allow you to choose whether this information is displayed as a hypothetical tree
+    showing transmission links or graphed by the sum of cases reported over time (in total or broken down per country).</p>
+    <p>In addition to the timeline, we created a map to visualize a live Twitter stream related to the
+    outbreak in a geospatial context. The map uses Tangelo's streaming data services to retrieve
+    Tweets containing the hashtag “Ebola.” GeoJS then plots the Tweets.
+    The Air Force Research Laboratory and the Defense Advanced Research Projects Agency
+    XDATA program sponsored the effort to create the timeline and the map, while HealthMap
+    provided the news articles used in the timeline.</p>
+  components: 
+    - tangelo
+    - geojs
+
+- name: hospital
+  displayName: Hospital Costs
+  subtitle: Interactive visualization
+  description: <p>When outcome and cost metrics for thousands of hospitals were released by the federal
+    government, we sought to answer the question, “Does hospital cost relate to the quality of patient
+    outcome?” As part of an effort sponsored by the Air Force Research Laboratory and the Defense
+    Advanced Research Projects Agency XDATA program, we developed an interactive online
+    visualization tool that allows you to compare the cost of treatments for pneumonia and heart
+    failure, the amount of Medicare reimbursement received, and the quality of care for hospitals
+    throughout the country.</p>
+    <p>The online visualization tool is built on the Tangelo web framework. Using this tool, you can
+    select different states, highlight particular hospitals, and toggle between a bar chart and a scatter
+    plot to see how your local hospital stacks up to national averages.</p>
+  link: http://infovis.kitware.com/hospital-costs
+  components:
+    - tangelo
+
+
+- name: permits
+  displayName: Boston Permit Data
+  subtitle: U.S. Census Data
+  description: <p>Funded by the Defense Advanced Research Projects Agency, the XDATA project aims to
+    develop Big Data analysis and visualization solutions by using and expanding open-source
+    frameworks. Using data from the U.S. Census, we enable analysts so see geospatial
+    and temporal correlations between various permit, crime, and violation data in Boston.</p>
+    <p>Explore Boston Permits is hosted with Girder and GeoJS. Girder manages the large
+    datasets, and GeoJS enables scalable interaction and animation of the U.S. Census data.</p>
+  link: http://demo.kitware.com/bostonpermits
+  components:
+    - girder
+    - geojs
+
+- name: monkeybrain
+  displayName: Brain Development
+  subtitle: Longitudinal data management
+  description: <p>Macaque Neuro-Development Data contains over 150 neonate macaque brain scans, which span
+    more than 30 subjects. This longitudinal primate database is freely downloadable. It uses Girder
+    for data organization, dissemination, authentication, and management. The Harlow Center for
+    Biological Psychology at the University of Wisconsin-Madison and the Neuro Image Research
+    and Analysis Laboratories (NIRAL) at the University of North Carolina at Chapel Hill compiled
+    the database with funding from the National Institutes of Health through project
+    5R01MH091645-05.</p>
+    <p>For more information, inspect or download the data at <a href="https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3">https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3</a>,
+    or read the associated paper&#58; Jeffrey T. Young et al. <a href="http://journal.frontiersin.org/article/10.3389/fnins.2017.00029/full">The UNC-Wisconsin Rhesus Macaque Neurodevelopment Database&#58; A Structural MRI and DTI Database of Early Postnatal Development. Frontiers in Neuroscience</a>. Vol. 11, 2017.</p>
+  link: https://data.kitware.com/#collection/54b582c38d777f4362aa9cb3
+  components:
+    - girder
+
+- name: arbor
+  displayName: Arbor
+  subtitle: Bioinformatics workflows
+  description: <p>The Resonant Flow application was primarily developed for the National Science Foundation
+    (NSF) <a href="http://arborworkflows.com/">Arbor Revolutionary Workflows</a> project, which provides new ways for phylogenetics
+    researchers to share code and data, as well as to educate others on new methods. Resonant Flow
+    allows you to drag and drop data, author and run analytic scripts in R or Python, construct
+    complex bioinformatics workflows, and visualize results in a browser. The application uses
+    Girder to store both data and analyses and to manage the remote execution of analyses through
+    Celery, a popular Python framework for distributed task management. Resonant Flow also uses
+    GeoJS to plot the locations of the observations for a better understanding of the geographic
+    distribution of species.</p>
+  link: https://arbor.kitware.com
+  components:
+    - girder
+    - girder-worker
+    - geojs
+  
+- name: sumo
+  displayName: SUMO
+  subtitle: Computational biology
+  description: <p>The SUMO collective laboratory works on problems of computational biology while
+    leveraging methods from bioinformatics, visualization, and image analysis. The
+    group, led by Ohio State University, has engineered several workflows for
+    processing and analyzing images for problems in cancer, neuro, and wound biology
+    and immunology. They have developed algorithms that have been adapted for
+    exploration in the laboratory at the microscopic scale (confocal, brightfield,
+    histology, etc.) and in radiology clinics (diffusion tensor MR, fMRI, etc.).
+    Kitware has assisted this group with developing online software to share these
+    algorithms and visualizations to a wide audience. The SUMO software enables
+    researchers to analyze data through a web interface supported by Girder and
+    Girder Worker.</p>
+    <p>Note&#58; This application is still under development so not all features are available.</p>
+  link: http://osumo.org
+  components:
+    - girder
+    - girder-worker
+
+- name: xdata
+  displayName: XDATA
+  subtitle: Big data visualization
+  description: <p>
+    Funded by the Defense Advanced Research Projects Agency, the XDATA project aims to
+    develop Big Data analysis and visualization solutions by using and expanding open-source
+    frameworks. The project is comprised of dozens of interactive, visual web applications. XDATA
+    helps you to see patterns, map fields to visuals, search for anomalies, follow a network, link
+    database queries to visual information, and document entity relationships. For example, you can
+    find and filter data from Bitcoin, Akamai, or Twitter; explore the progression of table
+    partitioning in a predictive database; visualize large graphs using the Biofabric algorithm; track
+    theft; search for relationships among emails from Enron employees; and discover locations from
+    millions of photographs on Flickr.
+    </p>
+    <p>
+    XDATA is hosted on the modular and flexible structure of Tangelo, which rapidly creates the
+    interactive, visual web applications using a variety of data sources. Girder manages the large
+    XDATA datasets, and Girder Worker creates workflows for the extract, transform, and load (ETL)
+    data tasks.
+    </p>
+    <p>
+    Several of the Resonant examples on this site were built using XDATA technologies.
+    </p>
+  components:
+    - girder
+    - girder-worker
+    - tangelo
+
+- name: covalic
+  displayName: Covalic
+  subtitle: Challenge hosting
+  description: <p>Our COVALIC platform helps you get the most out of your data, while saving millions of dollars
+    in research and development. The platform unites datasets and software from world-class
+    researchers and developers for grand challenges. During grand challenges, participants submit
+    results to well-defined inputs and outputs. These results are scored against a known ground-truth
+    and ranked. The outcome of grand challenges is win-win data analysis, as stakeholders can
+    discover solutions from algorithm developers in their fields, and developers can see how their
+    methods work on real-world data. Thus, grand challenges help solve problems, advance the sate-
+    of-the-art, and evaluate novel algorithms through community competition.
+    The COVALIC platform combines decades of high-performance computing and medical
+    imaging experience with our modern data and analytics framework. The platform submits data to
+    Girder, processes it with Girder Worker, and visualizes the results using Tangelo.</p>
+  link: https://challenge.kitware.com/
+  components:
+    - girder
+    - girder-worker
+    - tangelo

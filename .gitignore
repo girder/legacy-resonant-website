@@ -1,2 +1,12 @@
 .DS_Store
-*.swp
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+source/apidocs/**
+source/built/**
+source/data/**
+source/examples/**
+source/tutorials/**

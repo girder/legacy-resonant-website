@@ -1,0 +1,14 @@
+<section class="portfolio bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2 class="section-heading">Success Stories</h2>
+            </div>
+        </div>
+        <div class="row">
+            <% for (let stories of site.data.stories) { %>
+                <%- partial('partial/portfolio', stories) %>
+            <% } %>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,16 @@
+<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+    <a href="<%- url_for(`/stories/${name}/`) %>" class="link">
+        <div class="portfolio-link embed-responsive embed-responsive-10by7">
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            <img src="<%- url_for(`images/portfolio/${name}.png`) %>" alt="">
+        </div>
+        <div class="portfolio-caption">
+            <h4><%= displayName %></h4>
+            <h5 class="text-muted"><%= subtitle %></h5>
+        </div>
+    </a>
+</div>
